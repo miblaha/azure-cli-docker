@@ -3,7 +3,7 @@ FROM debian:jessie
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh
 
 ENV AZURE_CLI_VERSION "0.10.17"
-ENV NODEJS_APT_ROOT "node_6.x"
+ENV NODEJS_APT_ROOT "node_7.x"
 ENV NODEJS_VERSION "7.9.0"
 
 RUN apt-get update -qq && \
